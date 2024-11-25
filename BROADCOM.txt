@@ -1,7 +1,7 @@
 SELECT ITEMS.item_numbe,
        ITEMS.current_phase_code,
        classes.item_class_code
-FROm   egp_system_items_b items,
+FROM   egp_system_items_b items,
        egp_item_classes_b classes
 WHERE  items.CURRENT_PHASE_CODE = 'Obsolete'
        AND items.template_item_flag = 'N'
