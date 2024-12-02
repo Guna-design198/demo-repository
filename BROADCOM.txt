@@ -13,3 +13,5 @@ SELECT ITEM_NUMBER FROM EGP_SYSTEM_ITEMS_B WHERE INVENTORY_ITEM_ID = 30000000129
 select * 
 from 
 egp_system_items_c;
+
+-- This is Git Smaple
