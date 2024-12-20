@@ -10,8 +10,7 @@ WHERE  items.CURRENT_PHASE_CODE = 'Obsolete'
 SELECT ACD_TYPE, ITEM_TYPE FROM EGP_SYSTEM_ITEMS_B WHERE ACD_TYPE = 'PRO:D' and ITEM_TYPE = :param;
 SELECT * FROM EGP_SYSTEM_ITEMS_B WHERE DESCRIPTION = :des and ITEM_TYPE = :param;
 SELECT ITEM_NUMBER FROM EGP_SYSTEM_ITEMS_B WHERE INVENTORY_ITEM_ID = 300000001291011;
-select * 
-from 
-egp_system_items_b;
+
+select * from egp_system_items_b;
 
 -- This is Gi BroadCom (Guna)
