@@ -15,4 +15,3 @@ select * from egp_system_items_b;
 
 -- This is Gi BroadCom (Venkat)
 -- Changes Made(Guna)
-Appended new content to the file.
