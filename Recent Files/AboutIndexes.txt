@@ -6,3 +6,5 @@ select * from all_constraints where table_name = 'egp_system_items_b';
 --this is test 
 
 --  new comment
+
+-- this is new comment.
