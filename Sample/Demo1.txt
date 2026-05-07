@@ -1,2 +1,2 @@
 --This is a sample Testing
-
+select * from egp_system_items_b;
