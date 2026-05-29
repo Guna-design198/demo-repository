@@ -8,6 +8,7 @@ WHERE  items.CURRENT_PHASE_CODE = 'Obsolete'
        AND items.item_catalog_group_id = classes.item_class_id;
 --anusha --updated
 --modified-Nagasree
+--anusha --git
 SELECT ACD_TYPE, ITEM_TYPE FROM EGP_SYSTEM_ITEMS_B WHERE ACD_TYPE = 'PRO:D' and ITEM_TYPE = :param;
 SELECT * FROM EGP_SYSTEM_ITEMS_B WHERE DESCRIPTION = :des and ITEM_TYPE = :param;
 SELECT ITEM_NUMBER FROM EGP_SYSTEM_ITEMS_B WHERE INVENTORY_ITEM_ID = 300000001291011;
